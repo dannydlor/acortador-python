@@ -3,10 +3,10 @@ import mariadb
 
 config = {
     'host' : 'localhost',
-    'port' : 3306,
+    'port' : 3309,
     'user' : 'root',
-    'password' : '',
-    'database' : 'flask_mvc',
+    'password' : 'Maleja21*',
+    'database' : 'enlaces',
 }
 
 DB = mariadb.connect(**config)

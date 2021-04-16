@@ -1,0 +1,17 @@
+{% extends 'layouts/base.html' %} {% block titulo %} Inicio {% endblock %} {% block contenido %}
+
+<div class="container" id="myForm" align="center">
+    <form action="{{ url_for('crear_enlaces') }}" method="POST">
+        <h1>Instituto Tecnológico del Putumayo</h1>
+        <h3>Acortador de URLS</h3>
+
+        <label for="enlaces">Ingrese el enlace</label>
+        <input type="text" required class="form-control" id="enlaces" name="enlaces" value="{{mostrar_en_vista}}">
+        
+        <br>
+       
+        <button  class="btn btn-success" >Acortar</button>
+    </form>
+</div>
+
+{% endblock %}

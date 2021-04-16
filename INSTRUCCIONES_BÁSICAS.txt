@@ -1,0 +1,26 @@
+1-	Cuando se abra el proyecto con el editor predeterminado, en la carpeta raíz
+	trabajar modo virtual con los comandos:
+	
+		pip install virtualenv
+		python -m venv env
+		env\Scripts\activate.bat
+		
+2-	Una vez en modo virtual, instalar los requerimientos:
+		
+		pip freeze > requirements.txt
+		pip freeze 
+		pip install -r requirements.txt
+
+3-	Usar el archivo enlaces.sql para la BD
+
+4-	En la carpeta raíz, iniciar el proyecto con el siguiente comando:
+	
+		python main.py
+
+5-	En el navegador para iniciar poner en la barra de direcciones:
+		
+		localhost:5000
+
+6-	Para el funcionamiento normal sólo tener en cuenta del menú superior la primera opción "Acortador",
+	ya que los otros módulos sólo se hicieron para pruebas.
+	
